@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.nav{
+    background-color: #2b333d;
+    position: absolute;
+    width: 100%;
+}
+
+.nav .flex_nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav .flex_nav img{
+    align-self: center;
+    height: 30px;
+}
+
+.nav .flex_nav h3{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    line-height: 50px;
+}
